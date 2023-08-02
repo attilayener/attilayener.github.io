@@ -1,12 +1,13 @@
-body{
-    background-image: url(images/2.jpg);
-    background-attachment: fixed;
-    /* background-repeat: no-repeat; */
-    background-position:center;
-    opacity:0.8;
-    background-color: #9a1f1f;
-
+*{
+ 
 }
+body{
+    background-image: url(images/4.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position:center;
+}
+
 .space{
     padding-top: 240px;
 }
@@ -15,12 +16,21 @@ h1{
     text-align: center;
     color: aliceblue;
 }
+h1:hover{
+    color: rgb(243, 43, 43);
+}
 
 #musicBox{
-    border-style: dashed;
-    background-color: rgb(144, 41, 0);
-    width: 450px;
-    height: 300px;
+    /* border-style: dashed; */
+    width: 551px;
+    height: 401px;
     margin: auto;
     margin-top: 151px;
+}
+
+footer{
+    color:rgb(177, 237, 152);
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 10vm;
 }
